@@ -339,7 +339,7 @@
 <!--          <div class="container text-center">-->
 <!--              <div class="row justify-content-md-center">-->
 <!--                  <div class="col-md-12 col-lg-8">-->
-<!--                      <h2 class="title">Completed with examples</h2>-->
+<!--                      <h2 class="title">Completed with userapp</h2>-->
 <!--                      <h5 class="description">The kit comes with three pre-built pages to help you get started faster. You can change the text and images and you're good to go. More importantly, looking at them will give you a picture of what you can built with this powerful Bootstrap 4 ui kit.</h5>-->
 <!--                  </div>-->
 <!--              </div>-->
@@ -375,7 +375,7 @@
                           </div>
                           <div class="text-center">
                               <h6>
-                                  <a href="#pablo" class="link">Create Account</a>
+                                  <a [routerLink]="['/userapp/signup']" class="link">Create Account</a>
                               </h6>
                           </div>
                           <div class="text-center">
@@ -388,7 +388,7 @@
               </div>
             </div>
               <div class="col text-center">
-                  <a [routerLink]="['/examples/login']" class="btn btn-simple btn-round btn-white btn-lg">View Login Page</a>
+                  <a [routerLink]="['../userapp/login']" class="btn btn-simple btn-round btn-white btn-lg">View Login Page</a>
               </div>
           </div>
       </div>
@@ -397,16 +397,16 @@
           <div class="container text-center">
               <div class="row">
                   <div class="col">
-                      <a [routerLink]="['/examples/landing']">
+                      <a [routerLink]="['/userapp/landing']">
                           <img src="assets/img/landing_1.png" alt="Image" class="img-raised">
                       </a>
-                      <a [routerLink]="['/examples/landing']" class="btn btn-simple btn-primary btn-round">About Us</a>
+                      <a [routerLink]="['/userapp/landing']" class="btn btn-simple btn-primary btn-round">About Us</a>
                   </div>
                   <div class="col">
-                      <a [routerLink]="['/examples/profile']">
+                      <a [routerLink]="['/userapp/profile']">
                           <img src="assets/img/profile_1.png" alt="Image" class="img-raised">
                       </a>
-                      <a [routerLink]="['/examples/profile']" class="btn btn-simple btn-primary btn-round">View Profile Page</a>
+                      <a [routerLink]="['/userapp/profile']" class="btn btn-simple btn-primary btn-round">View Profile Page</a>
                   </div>
               </div>
           </div>

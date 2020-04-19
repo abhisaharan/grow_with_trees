@@ -74,7 +74,7 @@ grow_with_trees
 │   │   │   ├── examples.component.scss
 │   │   │   ├── examples.component.spec.ts
 │   │   │   ├── examples.component.ts
-│   │   │   ├── examples.module.ts
+│   │   │   ├── userapp.module.ts
 │   │   │   ├── landing
 │   │   │   │   ├── landing.component.html
 │   │   │   │   ├── landing.component.scss
