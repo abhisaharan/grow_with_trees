@@ -31,6 +31,9 @@ export class LoginComponent implements OnInit {
     }
 
     ngOnInit() {
+        // logout user if he is logged in and come to this url
+        this.authenticationService.logout();
+
         var body = document.getElementsByTagName('body')[0];
         body.classList.add('login-page');
         var navbar = document.getElementsByTagName('nav')[0];
